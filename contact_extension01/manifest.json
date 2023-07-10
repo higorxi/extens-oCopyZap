@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Copiar Número do WhatsApp",
+    "description": "Uma extensão para copiar o número de um contato salvo no WhatsApp.",
+    "version": "0.1",
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
+    "content_scripts":[
+        {
+            "matches": [
+                "https://web.whatsapp.com/"
+            ],
+            "css": [
+                "style.css"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}

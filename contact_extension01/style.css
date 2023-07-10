@@ -1,0 +1,17 @@
+.copyButton{
+    color: rgb(255, 0, 0);
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: transparent;
+    border-radius: 2px 2px 2px 2px;
+    right: 20px;
+    display: flex;
+}
+
+.copyButton:hover{
+    background-color: black;
+    color: white;
+    transition: 0,5s;
+    padding: 2px;
+    border-radius: 2px 2px;
+}
